@@ -6,7 +6,7 @@ const route = require("./routes")
 const cors = require("cors")
 const db = require("./config/index")
 const app = express()
-const port = 8080
+const port =  8080
 const path = require("path")
 
 app.use(express.static(path.join(__dirname, "../public")))
