@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --inspect src/app.js",
-    "test": "test"
+    "test": "test",
+    "build": "webpack",
+    "heroku-postbuild": "ng build --prod"
   },
   "author": "nduyvu",
   "license": "ISC",
