@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --inspect src/app.js",
+    "start": "node app.js",
     "test": "test",
     "build": "ng build",
     "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
